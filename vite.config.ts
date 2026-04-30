@@ -18,7 +18,8 @@ import { componentTagger } from "lovable-tagger";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig(({ mode }) => ({
-  server: {
+  base: "/CoreWerk/",
+server: {
     host: "::",
     port: 8080,
   },
